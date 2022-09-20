@@ -1,0 +1,240 @@
+﻿body {
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+a:hover {
+    transform: scale(0.95);
+    background-color: #22008162;
+    color: white;
+}
+
+.contentPage {
+    display: flex;
+}
+
+.menu {
+    margin: 0px;
+    width: 360px;
+    height: calc(100% - 25px);
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    color: #DDD;
+}
+
+.menuHeader {
+    overflow: hidden;
+    background-color: #1565C0;
+    padding: 12px 20px;
+}
+
+.center-img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.buttonHome {
+    transform: scale(0.95);
+    float: left;
+    position: relative;
+    background-color: #2386E9;
+    width: 30%;
+    height: 54px;
+    border-radius: 10px;
+}
+
+.buttonMIEM {
+    transform: scale(0.9);
+    float: right;
+    position: relative;
+    background-color: #2386E9;
+    width: 60%;
+    height: 54px;
+    border-radius: 10px;
+}
+
+.mainMenu {
+    background-color: #2F4256;
+    padding: 10px 10px;
+}
+
+.menuBlock {
+    width: 90%;
+    height: 30%;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #848484;
+}
+
+.menuBlock a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuBlock h3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.menuButton {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    color: #FFF;
+    margin: 10px;
+}
+
+
+/* Button */
+
+.btn {
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    width: 110%;
+    outline: none;
+    position: relative;
+}
+
+    .btn:active {
+        top: 2px;
+    }
+
+
+/* Button with icon on right */
+
+.btn-right {
+    padding: 0px;
+}
+
+    .btn-right:after {
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        position: relative;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .btn-right:after {
+        position: absolute;
+        height: 75%;
+        right: 0;
+        top: 00px;
+        line-height: 4;
+        width: 60px;
+    }
+
+
+/*Button with icon on left */
+
+.btn-left {
+    padding: 18px 40px 18px 100px;
+}
+
+    .btn-left:before {
+        background: #21518F;
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0px;
+        line-height: 4;
+        width: 60px;
+    }
+
+.btn-blu1 {
+    background: #3498db;
+}
+
+    .btn-blu1:hover {
+        background: #2980b9;
+    }
+
+.btn-blu2 {
+    background: #3263A2;
+}
+
+    .btn-blu2:hover {
+        background: #21518F;
+    }
+
+.icon-next:after {
+    content: url("https://alifna.azurewebsites.net/client_docs/arrow.svg");
+}
+
+.bit-drone:before {
+    content: url("../img/BitsComp.svg");
+}
+
+.book-drone:before {
+    content: url("../img/Documentation.svg");
+}
+
+.quest-drone:before {
+    content: url("../img/Question.svg");
+}
+
+.content {
+    overflow: hidden;
+    width: 100%;
+}
+
+.contentHeader {
+    display: block;
+    width: 100%;
+    padding: 20px 10px 20px 20px;
+    background-color: #D3D3D3;
+}
+
+    .contentHeader h1 {
+        color: #636161;
+        font-size: 22px;
+    }
+
+.contentText {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Button end */
+
+@media screen and (max-width: 800px) {
+    .header a {
+        text-align: center;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .header{
+        justify-content: center;
+    }
+
+    .menu {
+        transition: 0.5s;
+        transform: translateX(-500px);
+    }
+
+    .contentHeader h1 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,1 @@
+.header{display:flex;align-items:center;justify-content:space-between;background-color:#0c002e;padding-left:10px;padding-right:10px;font-size:22px}.header a,h1{color:#fff;text-align:center;padding:20px;text-decoration:none;margin:5px;line-height:20px;border-radius:10px}.header-left{align-self:flex-start;font-size:12px;font-weight:bold}.header-right{align-items:flex-end}

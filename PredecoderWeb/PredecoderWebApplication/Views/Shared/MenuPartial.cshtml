@@ -1,0 +1,83 @@
+﻿<div class="menu">
+    <div class="menuHeader">
+        <a href="/Home/Index" class="buttonHome">
+            <img class="center-img" src="~/img/HomePageLogo.svg" alt="Home">
+        </a>
+        <a href="https://miem.hse.ru/" class="buttonMIEM">
+            <img class="center-img" src="~/img/MIEMLogo.svg" alt="MIEM">
+        </a>
+    </div>
+    <div class="mainMenu">
+        <div class="menuBlock">
+            <h3>Основы</h3>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/DataTypes"})'">
+                Типы данных
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/IntegersTypes"})'">
+                Операции с целыми числами
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/FloatTypes"})'">
+                Операции с вещественными числами
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/StringTypes"})'">
+                Операции со строками
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/FunctionTypes"})'">
+                Функции
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/MIPS"})'">
+                Классы и объекты
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/MIPS"})'">
+                Основные принципы ООП
+            </button>
+        </div>
+        <div class="menuBlock">
+            <h3>Структуры данных</h3>
+            <button type="button" class="btn btn-left btn-blu2 book-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/I64"})'">
+                Массивы
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 book-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/MIPS"})'">
+                Динамические массивы
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 book-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/MIPS"})'">
+                Списки
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 book-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/MIPS"})'">
+                Стек и очередь
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 book-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/MIPS"})'">
+                Бинарные деревья
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 book-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/MIPS"})'">
+                Бинарные деревья поиска
+            </button>
+            <button type="button" class="btn btn-left btn-blu2 book-drone"
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/MIPS"})'">
+                Хэш-таблицы
+            </button>
+        </div>
+        <div class="menuBlock">
+            <h3>Алгоритмы</h3>
+            <button type="button" class="btn btn-left btn-blu2 quest-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"CodePages/I64"})'">Динамическое программирование</button>
+            <button type="button" class="btn btn-left btn-blu2 quest-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"CodePages/MIPS"})'">Бинарный поиск</button>
+            <button type="button" class="btn btn-left btn-blu2 quest-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"CodePages/Help"})'">Алгоритмы хэширования</button>
+        </div>
+    </div>
+</div>

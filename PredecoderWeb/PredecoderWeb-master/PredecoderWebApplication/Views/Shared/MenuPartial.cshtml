@@ -1,0 +1,35 @@
+﻿<div class="menu">
+    <div class="menuHeader">
+        <a href="/Home/Index" class="buttonHome">
+            <img class="center-img" src="~/img/HomePageLogo.svg" alt="Home">
+        </a>
+        <a href="https://miem.hse.ru/" class="buttonMIEM">
+            <img class="center-img" src="~/img/MIEMLogo.svg" alt="MIEM">
+        </a>
+    </div>
+    <div class="mainMenu">
+        <div class="menuBlock">
+            <h3>Симуляторы</h3>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/I64"})'">Симулятор I64</button>
+            <button type="button" class="btn btn-left btn-blu2 bit-drone" 
+                    onclick="location.href='@Url.Action("OpenPage", "Home", new {link=@"Simulators/MIPS"})'">Симулятор MIPS</button>
+        </div>
+        <div class="menuBlock">
+            <h3>Документация</h3>
+            <button type="button" class="btn btn-left btn-blu2 book-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/I64"})'">Архитектура I64</button>
+            <button type="button" class="btn btn-left btn-blu2 book-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"Documentation/MIPS"})'">Архитектура MIPS</button>
+        </div>
+        <div class="menuBlock">
+            <h3>Краткая справка</h3>
+            <button type="button" class="btn btn-left btn-blu2 quest-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"CodePages/I64"})'">Интсрукции I64</button>
+            <button type="button" class="btn btn-left btn-blu2 quest-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"CodePages/MIPS"})'">Интсрукции MIPS</button>
+            <button type="button" class="btn btn-left btn-blu2 quest-drone" 
+                    onclick= "location.href='@Url.Action("OpenPage", "Home", new {link=@"CodePages/Help"})'">Помощь</button>
+        </div>
+    </div>
+</div>

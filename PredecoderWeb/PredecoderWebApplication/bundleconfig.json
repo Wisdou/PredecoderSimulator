@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "wwwroot/css/mainstyle.min.css",
+    "inputFiles": [
+      "wwwroot/css/mainstyle.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [
+      "wwwroot/css/site.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/article_view.min.css",
+    "inputFiles": [
+      "wwwroot/css/article_view.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/header.min.css",
+    "inputFiles": [
+      "wwwroot/css/header.css"
+    ]
+  }
+]
